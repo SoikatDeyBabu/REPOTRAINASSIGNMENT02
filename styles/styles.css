@@ -1,6 +1,9 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+.bodybody{
+    border: 0;
+}
 .container {
     width: 100%;
     height: 1000px;
@@ -255,7 +258,9 @@ ul {
     margin-left: 225px;
     margin-bottom: 40px;
 }
-
+.sectionfourcontainer {
+    border: 0;
+}
 .sectionfourheader {
     font-weight: 800;
     color: #131313;
@@ -331,4 +336,180 @@ footer {
 /* players name  */
 .player-name{
     font-size: 18px;
+}
+
+@media only screen and (max-width: 576px) {
+    .bodybody{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .container {
+        margin-top: 0;
+        height: 650px;
+    }
+    .bar {
+        /* border: 1px solid black; */
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .header-nav-title {
+        margin: 0;
+    }
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .headertext {
+        /* border: 1px solid black; */
+        margin: 20px 100px;
+        width: 50%;
+        height: 150px;
+    }
+    .headertitle {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #131313;
+        /* border: 1px solid black; */
+        margin-bottom: 10px;
+    }
+    .headerdescription {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #727272;
+        /* border: 1px solid black; */
+    }
+    .primarybtn {
+        width: 20%;
+        height: 30px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .image {
+        text-align: center;
+        margin: 20px 40px;
+        /* border: 1px solid black; */
+    }
+    .image img {
+        height: 200px;
+    }
+    .mainbody {
+        margin: 20px 40px;
+        border: 1px solid black;
+    }
+    .sectiononecontainer {
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .sectiononeimages {
+        /* border: 1px solid black; */
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    
+    .sectiononeimages img {
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .sectiononetext {
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 200px;
+    } 
+    .quick {
+        font-size: 15px;
+        color: #727272;
+    }
+    .our {
+        font-size: 15px;
+        color: #131313;
+    }
+    .feature {
+        font-size: 15px;
+        color: #FF900E;
+    }
+    .sectiononedescription {
+        font-size: 12px;
+        color: #727272;
+    }
+    .sectiontwocontainer {
+        margin-top: 20px;
+        /* border: 1px solid black; */
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .sectiontwoimage img {
+        width: 90%;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .sectiontwobox {
+        height: 100px;
+    }
+    .sectiontwoboxheading {
+        font-size: 25px;
+    }
+    .sectiontwoboxp {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .Sectionthreeheader {
+        font-size: 20px;
+    }
+    .threedescription {
+        font-size: 10px;
+        margin-bottom: 30px; 
+    }
+    .box-1 img {
+        width: 15px;
+        height: 15px;
+    }
+    .boxmiddle {
+        font-size: 15px;
+    }
+    .boxdescription {
+        font-size: 10px; 
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .palyers{
+        margin-left: 0;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .sectionfourtext {
+        width: 50%;
+        /* border: 1px solid black; */
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    .sectionfourheader {
+        font-size: 20px;
+    }
+    .sectionfourdescription {
+        font-size: 10px;
+    }
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo img{
+        height: 20px;
+        width: 80px;
+    }
+    footer {
+        margin-top: 20px;
+        height: 40px;
+        padding-top: 5px;
+        font-size: 8px;
+    }
 }
