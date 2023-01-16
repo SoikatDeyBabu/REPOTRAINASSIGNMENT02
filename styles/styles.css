@@ -503,6 +503,7 @@ footer {
         gap: 20px;
     }
     .logo img{
+        border: 0;;
         height: 20px;
         width: 80px;
     }
